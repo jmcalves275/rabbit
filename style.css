@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.navbar {
+    color: black;
+    position: absolute;
+    top: 20px;
+}
+
+.caps {
+}
+
+.caps.active {
+    font-size: xxx-large;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    color: grey;
+    font-size: 16px;
+}
+
+.rabbit-image {
+    width: 120px;
+    height: auto;
+}
+
+.scroll-indicator-bottom {
+    position: absolute;
+    bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    color: grey;
+    cursor: pointer;
+}
+
+.scroll-indicator-top {
+    position: absolute;
+    top: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    color: grey;
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+strong {
+    font-weight: bold;
+}
